@@ -3,6 +3,7 @@ TARGET=test
 SOURCES+=*.cpp
 HEADERS+=*.h
 CONFIG-=app_bundle
+CONFIG+=c++14
 QMAKE_CXXFLAGS += -std=c++1z
 QMAKE_CXXFLAGS += -Wall -Wextra
 QMAKE_CXXFLAGS += -g
